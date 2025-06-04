@@ -1,0 +1,74 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: pink;
+  margin-left: 25rem;
+}
+
+.App p{
+  color:rgb(11, 11, 11);
+  margin-left: 7rem;
+}
+
+h1 {
+  text-align: center;
+  color: #3d3d3d;
+  margin-bottom: 40px;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+  margin-left: 5rem;
+}
+
+button:hover:enabled {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: purple;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+th, td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+tr:hover {
+  background-color: #0c0c0c;
+}
+
+.saved-section {
+  margin-top: 30px;
+}
+
+.saved-section h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
